@@ -2,4 +2,42 @@
     padding:0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 105%;
+}
+
+.main div {
+    width: 100%;
+}
+
+.main>div>p:first-of-type {
+    background-color: #265B8C;
+    width: 100%;
+    padding: 1%;
+}
+
+.main div p:first-of-type a {
+    color: white;
+}
+
+.genAnnounce>* {
+    margin: 10px 0;
+}
+
+.genAnnounce h4 {
+    color: #575757;
+}
+
+.tabbed {
+    margin-left: 30px;
+}
+
+.tabbed span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.onlinePay {
+    font-size: 120%;
+    text-align: center;
+    width: 100%;
 }
