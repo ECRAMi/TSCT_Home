@@ -1,9 +1,152 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <title>TCST Home</title>
+        
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+        <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.js"></script>
+        <style>
+            .spBox{
+               position: absolute;
+               display: flex;
+               flex-direction: row;
+               right: 10px;
+               height: 25px;
+               width: 5.3%;
+               background-color: #265b8c;
+               padding: 1px;
+               top: 205px;
+               justify-content: space-between;
+               margin: 15px;
+           }
+           .spIcon{
+               margin: 5px;
+               color: white;
+           }
+           .sb{
+               position: absolute;
+               display: flex;
+               right: 10px;
+               width: 28%;
+               height: 790px;
+               top: 250px;
+               border: solid 2px lightgrey;
+               margin: 15px;
+           }
+           .or{
+               display: flex;
+               width: 100%;
+               height: 5.5%;
+               color: white;
+               background-color: #265b8c;
+           }
+           .or p{
+               margin: 8px;
+               padding-left: 2px;
+           }
+           .txt{
+               display: flex;
+               position: absolute;
+           }
+           .c1{
+               top: 35px;
+           }
+           .c2{
+               top: 70px;   
+           }
+           .c3{
+               top: 125px;
+           }
+           .c4{
+               top: 160px;
+               display: block;
+               list-style-type: disc;
+               margin-top: 1em;
+               margin-bottom: 1 em;
+               margin-left: 0;
+               margin-right: 0;
+               padding-left: 40px;
+           }
+           .c5{
+               top: 250px;
+           }
+           .c6{
+               top: 285px;
+               display: block;
+               list-style-type: disc;
+               margin-top: 1em;
+               margin-bottom: 1 em;
+               margin-left: 0;
+               margin-right: 0;
+               padding-left: 40px;
+           }
+           .c7{
+               top: 415px;
+           }
+           .c8{
+               top: 450px;
+               display: block;
+               list-style-type: disc;
+               margin-top: 1em;
+               margin-bottom: 1 em;
+               margin-left: 0;
+               margin-right: 0;
+               padding-left: 40px;   
+           }
+           .c9{
+               top: 600px;
+           }
+           .c10{
+               top: 630px;
+               display: block;
+               list-style-type: disc;
+               margin-top: 1em;
+               margin-bottom: 1 em;
+               margin-left: 0;
+               margin-right: 0;
+               padding-left: 40px;   
+           }
+           .c11{
+               top: 670px;
+           }
+           .c12{
+               top: 700px;
+               display: block;
+               list-style-type: disc;
+               margin-top: 1em;
+               margin-bottom: 1 em;
+               margin-left: 0;
+               margin-right: 0;
+               padding-left: 40px;   
+           }
+           .sb2{
+               position: absolute;
+               display: flex;
+               right: 10px;
+               width: 28%;
+               height: 75px;
+               top: 1080px;
+               border: solid 2px lightgrey;
+               margin: 15px;
+           }
+           .cs{
+               display: flex;
+               width: 100%;
+               height: 45.5%;
+               color: white;
+               background-color: #265b8c;  
+           }
+           .cs p{
+               margin: 8px;
+               padding-left: 2px;
+           }
+           .c13{
+               color: black;
+               top: 55%;
+           }
+       </style>
     </head>
     <body>
         <section class="header">
@@ -27,5 +170,153 @@
                 <a href="#">Student Services</a>
             </div>
         </section>
+        <section class="main">
+            <div class="genAnnounce">
+                <p><a href="#">General Announcements</a></p>
+                <h4>Payment Schedule for Academic Year 2021-2022</h4>
+                <h4 style="font-size: 18pt; text-align: center;">Students/Parents are now able to make Tuition, Room and/or Meal Plan Payments Only online using Visa,  MasterCard or Discover Card at the following link:</h4>
+                <br>
+                <p class="onlinePay"><a href="https://stevenscollege.edu/students-pay-online/">https://stevenscollege.edu/students-pay-online/</a></p>
+                <br><br>
+                <h5>Total Semester Charges minus Total Semester Awarded Financial Aid = Total Semester Cost</h5>
+                <br>
+                <div class="tabbed">
+                    <span>Fall Semester 2021</span>
+                    <p>First Payment = 1/3 of Total Fall Semester Cost – Due August 2, 2021</p>
+                    <p>Second Payment = 1/3 of Total Fall Semester Cost – Due September 24, 2021</p>
+                    <p>Third Payment = 1/3 of Total Fall Semester Cost – Due October 29, 2021</p>
+                    <br>
+                    <span>Spring Semester 2022</span>
+                    <p>First Payment = 1/3 of Total Spring Semester Cost – Due January 10, 2022</p>
+                    <p>Second Payment = 1/3 of Total Spring Semester Cost – Due February 25, 2022</p>
+                    <p>Third Payment = 1/3 of Total Spring Semester Cost – Due March 28, 2022</p>
+                </div>
+                <br>
+                <br>
+                <h4>Welcome to Thaddeus Stevens College of Technology!</h4>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/L8b8lMRh0pg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h4 style="font-size: 18pt;">Prepare for work. Prepare for life.</h4>
+            </div>
+        </section>
+        <section class="campuscalendar">
+          <div class="campcamp">
+              <a href="">Campus Calendar</a>
+              <br>
+              <a href="">View full calendar</a>
+              <br>
+              <p></p>
+              <h1>November 5&mdash;December 5,2021</h1>
+              <a href="">Sat,Nov 6th</a>
+              <br>
+              <p1>9:00 am - 12:00pm</p1>
+              <a href="">Wrestling @ Penn State Manor</a>
+              <p> - at Penn State Mont Alto, 1...</p>
+              <br>
+              <p>1:00 - 3:00pm</p>
+              <a href="">Basketball HOME vs. Prince...</a>
+              <p> - at MAC Courts</p>
+              <br>
+              <a href="">Tue,Nov 9th</a>
+              <p>6:00 pm - 7:00 pm </p>
+              <a href="">Banking Basics</a>
+              <br>
+              <p>- at Tenfold: 308 East KIng...</p>
+              <br>
+              <p>6:00 pm - 7:00 pm</p>
+              <a href="">Workout with Team Beast...</a>
+              <p>- at On the Lawn in front of...</p>
+              <p>7:00 pm - 9:00 pm</p>
+              <a href="">Basketball HOME vs. Leban..</a>
+              <p>- at MAC Courts</p>
+              <br>
+              <a href="">+34 more...</a>
+          </div>
+          <br>
+          <div class="campcamp2">
+              <a href="">TSCT Announcements</a>
+              <p>There is no content in this portlet.</p>
+          </div>
+          <br>
+          <div class="campcamp3">
+              <a href="">TSCT On Social Media</a>
+              <p>Find TSCT on social media at:</p>
+              <ion-icon name="logo-facebook"></ion-icon>
+              <ion-icon name="logo-twitter"></ion-icon>
+              <ion-icon name="logo-youtube"></ion-icon>
+              <ion-icon name="logo-instagram"></ion-icon>
+              <ion-icon name="logo-linkedin"></ion-icon>
+          </div>
+      </section>
+      <section>
+        <div class="spBox">
+            <ion-icon class="spIcon" name="settings-outline"></ion-icon>
+            <ion-icon class="spIcon" name="print-outline"></ion-icon>
+        </div>
+        <div class="sb">
+            <div class="or">
+                <p>Online Rescources</p>
+            </div>
+            <div class="txt c1">
+                <h3>We are here to help!</h3>
+            </div>
+            <div class="txt c2">
+                <p>The following digital resources are available to assist you in your remote studies:</p>
+            </div>
+            <div class="txt c3">
+                <ul>
+                    <li>Academic Support and Tutoring Help:</li>
+                </ul>
+            </div>
+            <div class="txt c4">
+                <li>Download our Fall 2021 Academic Support and Tutoring Guide <a href="#">here</a></li>
+                <li>Book a virtual tutoring appointment <a href="#">here</a></li>
+                <li>View our Zoom Download guide <a href="#">here</a></li>
+            </div>
+            <div class="txt c5">
+                <ul>
+                    <li>Submit a request to IT:</li>
+                </ul>
+            </div>
+            <div class="txt c6">
+                <li><a href="#">IT Support Request Form</a></li>
+                <li>Please note that the IT Department is currently experiencing a high volume of requests. Please keep this in mind when submitting a request for support. A member of the IT Department will get in touch with you as soon as possible.</a></li>
+            </div>
+            <div class="txt c7">
+                <ul>
+                    <li>Technology Request Form:</li>
+                </ul>
+            </div>
+            <div class="txt c8">
+                <li>Students who do not have a computer or cannot access the internet should complete the <a href="#">Technology Request Form here</a>. The college will review each request and do its best to meet students’ essential technology needs for their program and general education courses. Please note that completing the form does not guarantee the college can meet your request.</li>
+            </div>
+            <div class="txt c9">
+                <ul>
+                    <li>Academic Seminar Presentation:</li>
+                </ul>
+            </div>
+            <div class="txt c10">
+                <li>Download the Academic Seminar Presentation <a href="#">here</a></li>
+            </div>
+            <div class="txt c11">
+                <ul>
+                    <li>Counseling Services:</li>
+                </ul>
+            </div>
+            <div class="txt c12">
+                <li>Online Counseling Request Form: <a href="#">click here</a></li>
+                <li>Coping with Grief and Loss: <a href="#">click here for PowerPoint</a></li>
+            </div>
+        </div>
+        <div class="sb2">
+            <div class="cs">
+                <p>Online Rescources</p>
+                <div class="txt c13">
+                    <p>There is no content in this portlet.</p>
+                </div>
+            </div>
+        </section>
+      <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>      
     </body>
 </html>
