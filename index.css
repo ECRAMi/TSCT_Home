@@ -3,3 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.main div a:first-child {
+    background-color: #265B8C;
+    color: white;
+    padding: 10%;
+}
+
+.genAnnounce h4 {
+    color: #575757;
+}
