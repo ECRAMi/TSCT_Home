@@ -1,5 +1,43 @@
-* {
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
+.header .loginBar {
+    display: flex;
+    justify-content: right;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.header .loginBar div {
+    text-align: center;
+    border: 1px solid rgb(82, 82, 82);
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    border-radius: 3px;
+}
+
+.submit {
+    margin-left: 30px;
+}
+
+.loginBar div input {
+    border: none;
+    margin-left: 10px;
+    border-left: 1px solid black;
+    padding-top: 1px;
+    height: fit-content;
+    background: none;
+}
+
+.searchButton {
+    margin-left: 30px;
+}
+
+.navBar {
+    padding-left: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #265b8c;
+    padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
 }
