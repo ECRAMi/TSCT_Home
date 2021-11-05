@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+.main div {
+    width: 100%;
+}
+
 .main div a:first-child {
     background-color: #265B8C;
     color: white;
-    padding: 10%;
+    padding: 1%;
 }
 
 .genAnnounce h4 {
